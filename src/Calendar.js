@@ -1,15 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
 
-function ListEvents(existingEvents){
-
-}
-
-function NewEvent(newEvent){
-
-}
-
-function CalendarItem(){
-    
+export default class Calendar extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>Calendar</h2>
+      </div>
+    );
+  }
 }

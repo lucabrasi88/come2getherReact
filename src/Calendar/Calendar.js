@@ -187,7 +187,7 @@ export default class Calendar extends React.Component {
         <table className="calendar-month">
           <thead>
             <tr>
-              <th colSpan="4">Select a Yeah</th>
+              <th colSpan="4">Select a Year</th>
             </tr>
           </thead>
           <tbody>{yearlist}</tbody>

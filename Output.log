@@ -1,0 +1,6 @@
+Results of registry query for "Installed" in HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\VC\Runtimes\x64 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\12.0\VC\Runtimes\x64
+    Installed    REG_DWORD    0x1
+
+End of search: 1 match(es) found.

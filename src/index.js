@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Calendar from "./Calendar";
+import Calendar from "./Calendar/Calendar";
 
 function App() {
   return (

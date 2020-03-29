@@ -21,7 +21,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native-sqlite-2": "^3.0.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "tail.datetime": "^0.4.13"
   },
   "scripts": {
     "start": "react-scripts start",

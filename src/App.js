@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 import MainPage from './pages/main';
 
@@ -23,9 +24,12 @@ class App extends Component {
 
   render(){
     return (
-      <div className="App">
-        <MainPage eventsData={this.state.eventsData} />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Route exact path ="/" component={(props) => <MainPage {...props} eventsData={this.state.eventsData} />}/>
+          <Route exact path ="/events/id" component={}
+        </div>
+      </BrowserRouter>
     )
   }      
 }

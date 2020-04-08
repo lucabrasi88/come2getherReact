@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ShowEventPage extends Component{
+export default class ShowEventPage extends React.Component{
     render(){
         const { eventData } = this.props;
 

@@ -19,10 +19,10 @@ export default class NewEvent extends React.Component{
         })
     }
 
-    handleSave = (e) => {
+    handleSave = async (e) => {
         e.preventDefault();
 
-        const id = this.props.onSave(this.state.eventData);
+        const id =  await this.props.onSave(this.state.eventData);
         this.props.history.replace(`/events/${id}`);
     }
     
